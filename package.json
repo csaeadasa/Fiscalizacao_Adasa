@@ -1,0 +1,13 @@
+{
+  "name": "fiscalizacoes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend simples para salvar fiscalizacoes em arquivo JSON",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,40 @@
+export const defaultConfig = {
+  app_title: 'Sistema de Fiscalizações',
+  subtitle: 'Monitoramento em Tempo Real'
+};
+
+export const regionCoordinates = {
+  'Plano Piloto': [-15.7942, -47.8822],
+  'Gama': [-16.0192, -48.0617],
+  'Taguatinga': [-15.8364, -48.0564],
+  'Brazlândia': [-15.6759, -48.2125],
+  'Sobradinho': [-15.6500, -47.7878],
+  'Planaltina': [-15.6204, -47.6482],
+  'Paranoá': [-15.7735, -47.7767],
+  'Núcleo Bandeirante': [-15.8714, -47.9675],
+  'Ceilândia': [-15.8197, -48.1117],
+  'Guará': [-15.8333, -47.9833],
+  'Cruzeiro': [-15.7942, -47.9311],
+  'Samambaia': [-15.8789, -48.0992],
+  'Santa Maria': [-16.0197, -48.0028],
+  'São Sebastião': [-15.9025, -47.7631],
+  'Recanto das Emas': [-15.9167, -48.0667],
+  'Lago Sul': [-15.8333, -47.8500],
+  'Riacho Fundo': [-15.8833, -48.0167],
+  'Lago Norte': [-15.7333, -47.8500],
+  'Candangolândia': [-15.8500, -47.9500],
+  'Águas Claras': [-15.8333, -48.0333],
+  'Riacho Fundo II': [-15.9000, -48.0500],
+  'Sudoeste/Octogonal': [-15.8000, -47.9167],
+  'Varjão': [-15.7167, -47.8667],
+  'Park Way': [-15.9000, -47.9500],
+  'SCIA/Estrutural': [-15.7833, -47.9833],
+  'Sobradinho II': [-15.6333, -47.8000],
+  'Jardim Botânico': [-15.8667, -47.8000],
+  'Itapoã': [-15.7500, -47.7667],
+  'SIA': [-15.8167, -47.9500],
+  'Vicente Pires': [-15.8000, -48.0333],
+  'Fercal': [-15.6000, -47.9000],
+  'Sol Nascente/Pôr do Sol': [-15.8000, -48.1333],
+  'Arniqueira': [-15.8500, -48.0333]
+};

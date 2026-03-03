@@ -1,0 +1,52 @@
+* { font-family: 'Plus Jakarta Sans', sans-serif; }
+
+:root { --app-height: 100vh; }
+#app { height: var(--app-height); }
+body { box-sizing: border-box; }
+
+.custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: #1e293b; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
+
+.marker-cluster-small, .marker-cluster-medium, .marker-cluster-large {
+  background-color: rgba(59, 130, 246, 0.3) !important;
+}
+.marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div {
+  background-color: #3b82f6 !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.leaflet-popup-content-wrapper { border-radius: 12px !important; }
+.leaflet-popup-content { margin: 0 !important; }
+
+@keyframes slideIn {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.slide-in { animation: slideIn 0.3s ease-out; }
+.fade-in { animation: fadeIn 0.3s ease-out; }
+
+.status-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+.status-andamento { background: linear-gradient(135deg, #fbbf24, #f59e0b); color: #78350f; }
+.status-concluida { background: linear-gradient(135deg, #34d399, #10b981); color: #064e3b; }
+.status-pendente { background: linear-gradient(135deg, #f87171, #ef4444); color: #7f1d1d; }
+
+.glass-card { background: rgba(30, 41, 59, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(71, 85, 105, 0.5); }
+.input-field { transition: all 0.2s ease; }
+.input-field:focus { box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3); }
+
+.btn-primary { background: linear-gradient(135deg, #3b82f6, #2563eb); transition: all 0.2s ease; }
+.btn-primary:hover { background: linear-gradient(135deg, #2563eb, #1d4ed8); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4); }
+
+.metric-card { background: linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.9)); border: 1px solid rgba(71, 85, 105, 0.4); }
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.15); opacity: 0.85; }
+  100% { transform: scale(1); opacity: 1; }
+}
